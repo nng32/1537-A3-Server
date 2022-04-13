@@ -10,7 +10,7 @@ function findUnicornByName() {
     console.log("findUnicornByName() was called")
     $.ajax(
         {
-            url: "http://localhost:5000/findUnicornByName",
+            url: "https://ump45-comp-1537-a3.herokuapp.com/findUnicornByName",
             type: "POST",
             data: {
                 "unicornName": $("#unicornName").val()
@@ -27,7 +27,7 @@ function findUnicornByWeight() {
     console.log("findUnicornByWeight() was called")
     $.ajax(
         {
-            url: "http://localhost:5000/findUnicornByWeight",
+            url: "https://ump45-comp-1537-a3.herokuapp.com/findUnicornByWeight",
             type: "POST",
             data: {
                 "unicornWeightLower": parseInt($("#lowerWeight").val()),
@@ -55,7 +55,7 @@ function findUnicornByFood() {
     console.log("findUnicornByFood() was called")
     $.ajax(
         {
-            url: "http://localhost:5000/findUnicornByFood",
+            url: "https://ump45-comp-1537-a3.herokuapp.com/findUnicornByFood",
             type: "POST",
             data: {
                 "appleIsChecked": appleIsChecked,

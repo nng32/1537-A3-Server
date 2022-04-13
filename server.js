@@ -90,7 +90,7 @@ app.post("/findUnicornByFood", (req, res) => {
     });
 })
 
-mongoose.connect("mongodb://localhost:27017/test",
+mongoose.connect("mongodb+srv://nng32:d4t4b0$$@1537-a3.jimqj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
 {
     useNewUrlParser: true,
     useUnifiedTopology:  true
