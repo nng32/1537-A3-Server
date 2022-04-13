@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.homerule {
+    height: 1.6px;
+    border: none;
+    background-image: linear-gradient(to right, black, white);
+}
+
+.homelink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.homelink:link {
+    background-color: crimson;
+}
+
+.homelink:hover {
+    background-color: darkred;
+}
+
+.homelink:active {
+    background-color: red;
+}
+
+.text-input {
+    border: 2px solid crimson;
+}
+
+.text-input:hover {
+    border: 2px solid fuchsia;
+}
+
+.button-input {
+    border: 1px solid crimson;
+    color: white;
+    background-color: crimson;
+    padding: 5px;
+}
+
+.button-input:hover {
+    background-color: darkred;
+}
+
+.button-input:active {
+    background-color: red;
+}
